@@ -3,10 +3,10 @@ import "izitoast/dist/css/iziToast.min.css";
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 import { handleSuccess } from "./render-function.js";
-import { refs } from "./main.js";
+import { refs } from "../main.js";
 
 const BASE_URL = "https://pixabay.com/api/";
-const API_KEY = "48226781-c314bf294542f2e13595e23de";
+const API_KEY = "48624871-26dc1fa3882184af001c85b14";
 
 export function fetchImages(value) {
   return fetch(
